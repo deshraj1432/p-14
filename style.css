@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url(./download.jpeg), #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .flyer {
+    width: 90%;
+    max-width: 400px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Header */
+  .header h1 {
+    margin: 0;
+    font-size: 4rem;
+    line-height: 1;
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .header .festival {
+    color: #00d8f5;
+    margin-top: -10px;
+  }
+  
+  /* Event Details */
+  .details p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Vendors Section */
+  .vendors p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: orange;
+  }
+  
+  /* Free Entrance Section */
+  .free-entrance {
+    margin: 20px auto;
+    background: #444;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Footer */
+  .footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .footer p:first-of-type {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00d8f5;
+  }
+  
